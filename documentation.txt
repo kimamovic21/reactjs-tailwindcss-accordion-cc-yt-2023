@@ -1,0 +1,22 @@
+Build an Accordion Menu with React & Tailwind CSS
+Link: (https://www.youtube.com/watch?v=oOXExNA8A48)
+
+-kreiramo Vite ReactJS projekt
+-kreiramo folder components
+-instaliramo u terminalu TailwindCSS paket
+-u components folder kreiramo komponente Accordion.jsx i FAQ.jsx
+-u komponentu App.jsx importujemo komponente Accordion.jsx i FAQ.jsx
+-u komponenti App.jsx div elementu dodajemo className
+-div elementu dodajemo TailwindCSS klase
+-u komponenti FAQ.jsx div elementu dodajemo className
+-u komponenti Accordion.jsx div elementu dodajemo className
+-u komponentu Accordion.jsx importujemo React Hook useState
+-kreiramo state varijablu const [accordionOpen, setAccordionOpen] = useState(false)
+-u komponenti Accordion.jsx, div elementu dodajemo dinamicku klasu
+-u className dodajemo varijablu accordionOpen i ternarni uslov
+-kreiramo button elementu
+-button elementu dodajemo dogadaj onClick
+-u dogadaj onClick proslijedujemo anonimnu funkciju
+-u komponentu FAQ.jsx importujemo komponentu Accordion.jsx
+-u return izjavi komponenti Accordion.jsx dodajemo prop title, answer
+-u komponenti Accordion.jsx, funkciji Accordion dodajemo parametre destruktuirane prop title, answer
